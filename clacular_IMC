@@ -1,0 +1,5 @@
+#programa para calcular IMC
+peso = float (input("ingrese su peso en kg: "))
+altura = float (input("ingrese su altura en metros: "))
+imc = peso / (altura ** 2)
+print("su IMC es:", imc)

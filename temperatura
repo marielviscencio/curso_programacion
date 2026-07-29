@@ -1,0 +1,17 @@
+#convertidor de temperatura
+celsius = float(input("Ingrese la temperatura en grados Celsius: "))
+print("1. Fahrenheit\n2. Kelvin")
+opcion = int(input("Seleccione la opción de conversión: "))
+match opcion:
+    case 1:
+        resultado = (celsius * 9/5) + 32
+        unidad = "Fahrenheit"
+    case 2:
+        resultado = celsius + 273.15
+        unidad = "Kelvin"
+    case _:
+        resultado = None
+        print("Opción no válida")
+
+if resultado is not None:
+    print("convertido:", resultado, unidad)

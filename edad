@@ -1,0 +1,6 @@
+#verificar edad
+edad= int(input("ingrese su edad: "))
+if edad >= 18:
+    print("si puede votar")
+else:
+    print("no puede votar")

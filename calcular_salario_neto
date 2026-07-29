@@ -1,0 +1,7 @@
+#progrma para calcular salario neto 
+salario_bruto =float(input("ingrese el salario bruto: "))
+porcentje = float(input("ingrese el porcentaje de impuestos: "))
+deducciones = float(input("ingrese el monto de deducciones: "))
+impuesto= salario_bruto * (porcentje / 100)
+salario_neto = salario_bruto - impuesto - deducciones
+print("el salario neto es:", salario_neto)
